@@ -1,0 +1,36 @@
+{
+  "tel": "(307) 367-2469",
+  "status_closed": 0,
+  "status": "1",
+  "review_count": 0,
+  "region": "WY",
+  "geocode_confidence": "40",
+  "factual_id": "b24a970c-ae08-4ac9-a3d0-be738e353d43",
+  "existence_ml": 0.39322188737090275,
+  "existence": 0.39322188737090275,
+  "country": "us",
+  "category_labels": [
+    [
+      "Social",
+      "Bars"
+    ],
+    [
+      "Social",
+      "Food and Dining",
+      "Restaurants"
+    ]
+  ],
+  "category_ids": [
+    312,
+    347
+  ],
+  "address": "30 W Pine St",
+  "geocode_level": "within_50m",
+  "latitude": 42.866336,
+  "locality": "Pinedale",
+  "longitude": -109.861996,
+  "name": "Calamity Jane's",
+  "placerank": 13,
+  "placerank_ml": 13.10378465788612,
+  "postcode": "82941"
+}

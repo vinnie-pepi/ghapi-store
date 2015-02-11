@@ -1,0 +1,58 @@
+//@require stylesheets/main.css.sass
+//@require javascripts/main.js.coffee
+//@require javascripts/conditional_reveal_v2.js.coffee
+
+- content_for :javascripts do
+  :coffee
+    $ ->
+      questions = #{questions(inputs).to_json}
+      answers = #{assignment['answers'].blank? ? '[]' : assignment['answers']}
+      new Main(questions, answers)
+
+.container
+  %h1.page-header.text-center Category Check
+
+  = form_tag(path, method: :PUT) do
+    = hidden_field_tag 'assignment[status]', assignment['status'], { id: 'status' }
+    = hidden_field_tag 'assignment[answers]', assignment['answers'], { id: 'answers' }
+
+    .row
+      .col-md-6
+        %table.table.table-bordered
+          - @fields.each do |field|
+            %tr
+              %td
+                %b #{field.capitalize}:
+              %td
+                - if field == 'website' && inputs[field]
+                  = link_to inputs[field], inputs[field], :target => "_blank"
+                - elsif field == 'country'
+                  = " #{inputs[field].upcase}"
+                - else
+                  = " #{inputs[field]}"
+          %tr
+            %td
+            %td= google_search_link(inputs['name'], inputs['address'], inputs['locality'])
+
+      .col-md-6
+        .form-group.questions-container
+          %label Questions
+          .questions-placeholder
+
+        .form-group.asproblem-container
+          .alert.alert-danger
+            .text-center
+              This task has been marked as problem.
+
+        .form-group
+          %label(for="reason") Reason
+          %textarea#reason.form-control(name="assignment[reason]")= assignment['reason']
+
+    %hr
+
+    .row
+      .col-md-12
+        .text-center
+          = submit_tag 'Save', class: 'btn btn-primary btn-lg'
+          %a.btn.btn-danger.btn-lg.asproblem-btn Mark as Problem
+          %a.btn.btn-danger.btn-lg.noproblem-btn Un-mark as Problem

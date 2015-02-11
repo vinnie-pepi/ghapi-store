@@ -1,0 +1,130 @@
+{
+  "category_labels": "aaa",
+  "geocode_level": "within_50m",
+  "category": {
+    "is_blank": {
+      "0": "false"
+    },
+    "0": "Arts, Entertainment & Nightlife > Arcades & Amusement Parks"
+  },
+  "hours_display": "Mon 11:00 AM-12:00 PM, 2:00 PM-3:00 PM, 5:00 PM-9:00 PM; Tue 1:00 PM-3:00 PM, 6:00 PM-9:00 PM; Wed 12:00 PM-2:00 PM, 4:00 PM-10:00 PM; Thu 11:00 AM-3:00 PM, 6:00 PM-9:00 PM; Fri 10:00 AM-3:00 PM, 5:00 PM-10:00 PM; Sat 9:00 AM-11:00 PM; Sun 10:00 AM-10:00 PM",
+  "review_count": 1008,
+  "placerank_ml": 61.586463735457826,
+  "geocode_confidence": "41",
+  "address_accuracy": "AS01",
+  "locality": "Wildwood",
+  "status_closed": 0,
+  "melissa_address_key": "08260542701",
+  "current": "1",
+  "factual_id": "cd943869-02bb-464b-8e1c-bfd049de41a0",
+  "region": "NJ",
+  "status": "1",
+  "address": "3501 Boardwalk",
+  "placerank": 62,
+  "existence_ml": 0.9707232886976761,
+  "hours": {
+    "sunday": {
+      "0": {
+        "1": "22:00",
+        "0": "10:00"
+      }
+    },
+    "saturday": {
+      "0": {
+        "1": "23:00",
+        "0": "9:00"
+      }
+    },
+    "friday": {
+      "1": {
+        "1": "22:00",
+        "0": "17:00"
+      },
+      "0": {
+        "1": "15:00",
+        "0": "10:00"
+      }
+    },
+    "thursday": {
+      "1": {
+        "1": "21:00",
+        "0": "18:00"
+      },
+      "0": {
+        "1": "15:00",
+        "0": "11:00"
+      }
+    },
+    "wednesday": {
+      "1": {
+        "1": "22:00",
+        "0": "16:00"
+      },
+      "0": {
+        "1": "14:00",
+        "0": "12:00"
+      }
+    },
+    "tuesday": {
+      "1": {
+        "1": "21:00",
+        "0": "18:00"
+      },
+      "0": {
+        "1": "15:00",
+        "0": "13:00"
+      }
+    },
+    "monday": {
+      "2": {
+        "1": "21:00",
+        "0": "17:00"
+      },
+      "1": {
+        "1": "15:00",
+        "0": "14:00"
+      },
+      "0": {
+        "1": "12:00",
+        "0": "11:00"
+      }
+    }
+  },
+  "fax": "(609) 729-0086",
+  "country": "us",
+  "category_ids": {
+    "0": 319
+  },
+  "region_variants": {
+    "10": "Newjersey",
+    "2": "Nieuw-Jersey",
+    "11": "Garden State",
+    "0": "New Jersey",
+    "1": "新泽西",
+    "6": "Nueva Jersey",
+    "9": "Gardenstate",
+    "3": "ニュージャージー",
+    "4": "뉴저지",
+    "8": "State of New Jersey",
+    "7": "New Jersey State",
+    "5": "Nova Jérsei",
+    "12": "The Garden State",
+    "13": "NJ"
+  },
+  "postcode": "08260",
+  "longitude": -74.810571,
+  "tel": "(609) 522-3900",
+  "website": "http://www.moreyspiers.com",
+  "email": "info@moreyspiers.com",
+  "latitude": 38.986447,
+  "search_tags": {
+    "5": "Raging Waters Waterparks",
+    "4": "Raging Waters Water Park",
+    "3": "Moreys Pier",
+    "2": "Morey's Piers",
+    "1": "MCR Concessions-Morey's Pier",
+    "0": "MCR Concessions At Morey's"
+  },
+  "name": "Morey's Piers and Beachfront Waterparks",
+  "existence": 0.9707232886976761
+}

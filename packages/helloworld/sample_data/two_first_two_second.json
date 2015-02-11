@@ -1,0 +1,105 @@
+{
+  "category_labels": {
+    "1": {
+      "1": "Optometrist",
+      "0": "Healthcare"
+    },
+    "0": {
+      "1": "Glasses",
+      "0": "Retail"
+    }
+  },
+  "geocode_level": "within_50m",
+  "geo_virtual": {
+    "is_blank": {
+      "0": "false"
+    },
+    "0": "[\"39.98383500|-82.84324276|37|within_50m\",\"39.982165|-82.843270|27|within_50m\",\"39.9860001|-82.8430023|31|within_50m\"]"
+  },
+  "name": "Canyon Eye Associates",
+  "search_tags": {
+    "1": "Canyon Eye Associate",
+    "0": "Canyon Eye Assoc"
+  },
+  "latitude": 39.983835,
+  "website": "http://www.canyoneyemd.com",
+  "tel": "(614) 866-9134",
+  "longitude": -82.843243,
+  "placerank": 14,
+  "postcode": "43213",
+  "region_variants": {
+    "2": "オハイオ",
+    "0": "Ohio",
+    "9": "OH",
+    "3": "오하이오",
+    "4": "Ohio State",
+    "8": "The Buckeye State",
+    "7": "Buckeye State",
+    "5": "State of Ohio",
+    "6": "Ohiostate",
+    "1": "俄亥俄"
+  },
+  "category_ids": {
+    "1": 466,
+    "0": 159
+  },
+  "country": "us",
+  "fax": "(614) 866-6964",
+  "address_extended": "Ste 150",
+  "hours": {
+    "friday": {
+      "0": {
+        "1": "17:00",
+        "0": "9:00"
+      }
+    },
+    "thursday": {
+      "0": {
+        "1": "17:00",
+        "0": "9:00"
+      }
+    },
+    "wednesday": {
+      "0": {
+        "1": "17:00",
+        "0": "9:00"
+      }
+    },
+    "tuesday": {
+      "0": {
+        "1": "17:00",
+        "0": "9:00"
+      }
+    },
+    "monday": {
+      "0": {
+        "1": "17:00",
+        "0": "9:00"
+      }
+    }
+  },
+  "existence_ml": 0.8958207933942414,
+  "existence": 0.8958207933942414,
+  "address": "150 Taylor Station Rd",
+  "status": "1",
+  "region": "OH",
+  "languages": {
+    "0": "English"
+  },
+  "factual_id": "41019b0d-e3f2-4b8d-8534-83803253b406",
+  "current": "1",
+  "melissa_address_key": "43213444025",
+  "status_closed": 0,
+  "locality": "Columbus",
+  "address_accuracy": "AS01",
+  "geocode_confidence": "37",
+  "placerank_ml": 14.1325863846915,
+  "review_count": 0,
+  "hours_display": "Mon-Fri 9:00 AM-5:00 PM",
+  "category": {
+    "is_blank": {
+      "0": "false"
+    },
+    "0": "Shopping > Glasses & Optometrist"
+  }
+}
