@@ -1,0 +1,75 @@
+<h1>Simple Templating</h1>
+<p>This is a sample template that was generated for you and pushed to our github repo. You can access and edit this template here: 
+  <br /> 
+  [ link to github ]
+  <br /> 
+  <a href="https://help.github.com/articles/editing-files-in-your-repository/" target="_blank">How to edit on github</a>
+</p>
+
+<h4>
+  A quick intro to creating your template:
+</h4>
+
+<ol>
+  <li>Add some sample json data to the sample data folder here: [ link to sample data ]</li>
+  <li>
+    Sample data can be accessed within your template by using the handlebars templating system: 
+    <br />
+    <a href="http://handlebarsjs.com/" target="_blank">http://handlebarsjs.com/</a>
+    <p>
+    You can think of the sample data as your context in handlebars so for example, the sample form below uses the following sample data:
+    </p>
+      <pre>
+        {
+          "name": "Factual Shanghai Office",
+          "address": "166 Kaixuan Road Suite 101, Building 1",
+          "open": "YES",
+          "type": "office",
+          "number": "123456",
+          "notes": "hello world!"
+        }
+      </pre>
+  </li>
+  <li>
+    Build your form using html and data from your sample to however you like it.
+    (<a href="http://getbootstrap.com">Bootstrap</a> and <a href="http://jquery.com">Jquery</a> included)
+  </li>
+  <li>Gather any inputs you like from the worker. What you name your inputs will be how they are stored in mastermind and how you will access them later. 
+If a worker comes back to this template, the inputs that he or she had previously saved will be populated so there is no need to set a value on a text input or set checked on a radio or a checkbox.
+The submit buttons will also be created for you.
+  </li>
+  <li>Finally, you can access these instructions anytime here: [ add link here ] so feel free to delete this page and start from a clean slate.</li>
+</ol>
+
+<h2>A Sample Form</h2>
+
+<div class='form-group'>
+  <label>Name: {{name}}</label>
+  <input class='form-control' name='name'>
+</div>
+<div class='form-group'>
+  <label>Address: {{address}}</label>
+  <input class='form-control' name='address'>
+</div>
+<div class='form-group'>
+  <label>Open?: {{open}}</label>
+  <input class='form-control' name='open' type='checkbox'>
+</div>
+<div class='form-group'>
+  <label>Type: {{type}}</label>
+  <input class='form-control' name='type' type='radio' value='store'>
+  <input class='form-control' name='type' type='radio' value='school'>
+  <input class='form-control' name='type' type='radio' value='hospital'>
+</div>
+<div class='form-group'>
+  <label>Number: {{number}}</label>
+  <select class='form-control' name='number'>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+  </select>
+</div>
+<div class='form-group'>
+  <label>Notes: {{notes}}</label>
+  <textarea class='form-control' name='notes'></textarea>
+</div>
