@@ -1,0 +1,15 @@
+{
+  "name": "Factual, Inc.",
+  "address": "1999 Avenue of the Stars",
+  "address_ext": "35th Floor",
+  "locality": "Los Angeles",
+  "region": "CA",
+  "postcode": 90067,
+  "open": true,
+  "categories": [
+    "computers and internet",
+    "data",
+    "good peoples"
+  ],
+  "package_name": "test_updated_data"
+}
